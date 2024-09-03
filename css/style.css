@@ -1,0 +1,139 @@
+body {
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+.imgMessi {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/ProyectoFinal_Poli/img/mainwp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 3%;
+    font-family: 'Koulen', cursive;
+}
+
+.logotit {
+    position: absolute;
+    top: 59%;
+    margin-left: 3%;
+    left: 12%;
+}
+
+header {
+    padding: 2rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.firmaMessi {
+    width: 80px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.colorBoton {
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+.colorBoton:hover {
+    background-color: black;
+    color: white;
+}
+
+#contenedorProductos {
+    background-color: #000;
+    margin-top: 2%;
+}
+
+.imgProductos2 {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card2 {
+    top: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.card-body2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.botonesCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    background-color: #000;
+    padding: 2%;
+}
+
+.botonColor{
+    background-color: white;
+    color: black;
+    margin: 5px;
+}
+
+.botonColor:hover {
+    background-color: black;
+    color: white;
+}
+
+.valor {
+    color: white;
+    font-size: 40px;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+}
